@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar{
+    height: 2rem;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cont{
+    display: flex;
+    justify-content: center;
+}
